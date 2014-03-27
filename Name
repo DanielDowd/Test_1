@@ -5,5 +5,6 @@
 	aname=prompt("Please enter your first name, followed by a comma ","Daniel,kristian");
 	alert("Hello, " +aname);
 	alert("Hello, I am Connie");
+	alert("Hello, James!");
 </script>
 </html>
