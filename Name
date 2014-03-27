@@ -2,7 +2,7 @@
 <script type="text/javascript">
 	//username prompt
 	var aname;
-	aname=prompt("Please enter your first name, followed by a comma ","Daniel,");
+	aname=prompt("Please enter your first name, followed by a comma ","Daniel,kristian");
 	alert("Hello, " +aname);
 </script>
 </html>
