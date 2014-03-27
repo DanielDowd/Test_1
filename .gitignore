@@ -19,7 +19,7 @@ public class IfThenElse {
         int personAge;
         String theMessage;
         
-        //get the age from the end-user
+        //please get the age from the end-user
         personAge=Integer.parseInt(JOptionPane.showInputDialog("What is your age?"));
         
         //Determine the appropriate message to display
