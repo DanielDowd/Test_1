@@ -1,0 +1,44 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ifthenelse;
+
+/**
+ *
+ * @author 041401143
+ */
+import javax.swing.*;
+public class IfThenElse {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // set the variables for the program
+        int personAge;
+        String theMessage;
+        
+        //get the age from the end-user
+        personAge=Integer.parseInt(JOptionPane.showInputDialog("What is your age?"));
+        
+        //Determine the appropriate message to display
+        theMessage="";
+        if(personAge>=18)
+        {    
+            theMessage="You are an adult!\n";
+        }
+        //secondary statement
+        if(personAge>16)
+        {
+            theMessage+="Excellent, you are old enough to get your licence";
+        }
+        else
+        {
+        theMessage+="Thats a shame, you aren't old enough to get your licence";
+        }
+        //output the message to the end-user
+        JOptionPane.showMessageDialog(null,theMessage,"Licence",JOptionPane.INFORMATION_MESSAGE);
+        
+    }
+}
